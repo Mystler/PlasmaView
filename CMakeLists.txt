@@ -36,13 +36,11 @@ set(PlasmaView_Sources
     main.cpp
     plasmaview.cpp
     plasma_scene.cpp
-    trackball.cpp
 )
 
 set(PlasmaView_MOC_Sources
     plasmaview.h
     plasma_scene.h
-    trackball.h
 )
 qt5_wrap_cpp(PlasmaView_MOC ${PlasmaView_MOC_Sources})
 
